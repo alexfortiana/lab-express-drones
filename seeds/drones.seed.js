@@ -16,7 +16,7 @@ const drones = [
       
 
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`);
-    return Dron.insertMany(drones)
+    return Dron.create(drones)
   })
   .then((response) =>{
        mongoose.connection.close()

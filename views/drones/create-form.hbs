@@ -1,24 +1,49 @@
 <h2>Create a new drone</h2>
 
-
 <form method="POST" action="/drones/create">
-    <label for="name">Name</label>
-    <input type="text" name="name">
+  <div class="input-group input-group-sm mb-3">
+    <label
+      class="input-group-text"
+      id="inputGroup-sizing-sm"
+      for="name"
+    >Name</label>
+    <input
+      name="name"
+      type="text"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-sm"
+    />
+  </div>
+  <div class="input-group input-group-sm mb-3">
+    <label
+      class="input-group-text"
+      id="inputGroup-sizing-sm"
+      for="propellers"
+    >propellers</label>
+    <input
+      name="propellers"
+      type="text"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-sm"
+    />
+  </div>
+  <div class="input-group input-group-sm mb-3">
+    <label
+      class="input-group-text"
+      id="inputGroup-sizing-sm"
+      for="maxSpeed"
+    >Speed</label>
+    <input
+      name="maxSpeed"
+      type="text"
+      class="form-control"
+      aria-label="Sizing example input"
+      aria-describedby="inputGroup-sizing-sm"
+    />
+  </div>
 
-    <br>
-
-    <label for="propellers">Propellers</label>
-    <input type="text" name="propellers">
-
-    <br>
-
-    <label for="maxSpeed">Speed</label>
-    <input type="text" name="maxSpeed">
-
-    <button>add</button>
-
-
-
-
+  <button id="button-edit">add</button>
 
 </form>

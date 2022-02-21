@@ -1,8 +1,74 @@
 body {
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  /* background-image: url("../images/bg-dron.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: lightblue;
+  
 }
 
-a {
-  color: #00b7ff;
+#nav-bar{
+  color: white;
 }
+.centrar-texto{
+  text-align: center;
+  margin: 10px;
+
+}
+
+#button-edit{
+  
+  
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 12px;
+  
+}
+#text-color{
+  color: white;
+  text-decoration: none;
+
+}
+
+#inputs-container{
+  display: flex;
+
+
+}
+#title-text{
+  font-size: 60px;
+  font-family: monospace;
+  color: lightcyan;
+  margin-top: 30%;
+
+}
+
+.list-card{
+  margin: 10px;
+  background-color:lightsteelblue
+}
+
+#list-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+
+}
+
+.buttons-class{
+  display: flex;
+  
+}
+h2{
+  margin: 50px;
+  color: black;
+  font-size: 60px;
+  font-family: monospace;
+}
+
